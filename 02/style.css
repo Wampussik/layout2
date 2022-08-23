@@ -3,6 +3,10 @@
     font-family: 'Rubik', sans-serif;
 }
 
+.fontRubik {
+    font-family: 'Rubik', sans-serif;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -45,16 +49,16 @@
     padding: 28px;
     margin-top: auto;
     font-family: 'Rubik', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .basket {
-    background-color: #F3F4FF;
+    /* background-color: #F3F4FF; */
     width: 48px;
     height: 48px;
     margin-top: 16px;
     border-radius: 10px;
-    
+
 }
 
 .basket-img {
@@ -69,4 +73,61 @@
     text-align: center;
     border-radius: 20px;
     margin-right: 10%;
+}
+
+.main {
+    margin: 24px 10%;
+}
+
+.promo {
+    width: 1110px;
+    display: flex;
+}
+
+.back-lightblue {
+    background-color: #F3F4FF;
+}
+
+.back-lightbrown {
+    background: #FFF3ED;
+}
+
+.promo-element {
+    width: 540px;
+    height: 188px;
+    border-radius: 20px;
+    display: flex;
+    
+    margin-left: 30px;
+}
+
+
+.promo-text {
+    
+}
+
+.promo-text-title {
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.promo-text-discount {
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.color-blue{
+    color: #4E60FF;
+}
+.color-orange{
+    color: #FD6D22;
+}
+
+.promo-text-description {
+    margin-top: 36px;
+    font-size: 14px;
+    color: #83859C;
 }
