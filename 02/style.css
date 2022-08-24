@@ -80,8 +80,9 @@
 }
 
 .promo {
-    width: 1110px;
+    /* width: 1110px; */
     display: flex;
+    justify-content: space-between;
 }
 
 .back-lightblue {
@@ -97,8 +98,7 @@
     height: 188px;
     border-radius: 20px;
     display: flex;
-    
-    margin-left: 30px;
+    margin: 0 40px; 
 }
 
 
@@ -130,4 +130,30 @@
     margin-top: 36px;
     font-size: 14px;
     color: #83859C;
+}
+
+.food{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.food-element {
+    border-radius: 16px;
+    border: 2px solid #EDEEF2;
+    width: 160px;
+    height: 80px;
+    text-align: center;
+    /* padding-top: 14px; */
+}
+
+.food-element-img {
+    margin-top: 10px;
+}
+
+.food-element-text{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #545563;
 }
